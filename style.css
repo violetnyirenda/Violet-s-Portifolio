@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.job-title{
+    margin-top: 100px;
+}
+body{
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-right: 70px;
+    font-family: "Inter", sans-serif;
+}
+.right{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: violet;
+    border-radius: 500px;
+}
+.left {
+    background-image: linear-gradient(to right, violet, aqua);
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    background-clip: text;
+    color: transparent; /* Works in conjunction with background-clip */
+    font-weight: bold; /* To make the name stand out */
+}
+
+.name{
+    font-weight: bold;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.in{
+    width: 20px;
+    margin-right: -50px;
+}
+.git{
+    width: 20px;
+    margin-right: -50px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    gap: 10px;
+}
+h3{
+    margin-top: 40px;
+}
